@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./estilos/tareas2.css">
+    <meta charset="UTF-8">
+    <title>Lista Tareas</title>
+    <script src="./js/tareas1.js" type="text/javascript" defer></script>
+  </head>
+  
+  <body>
+    
+
+    <h2 id="DarkModetext">Modo oscuro</h2>
+<h3>
+  <button onclick="darkMode()">ENCENDIDO</button>
+  <button onclick="lightMode()">APAGADO</button>
+</h3>
+    
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+      }
+    </script>
+
+<header>
+    <h1>Tareas</h1>
+    <input type="text" id="myInput" placeholder="Anota la tarea ..." />
+    <span class="addBtn" id="add_button">Agregar</span>
+  </header>
+  <ul id="myUL">
+  </ul>
+
+</body>
+</html>
+    
+

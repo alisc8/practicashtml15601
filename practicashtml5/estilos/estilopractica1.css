@@ -1,0 +1,38 @@
+body{
+    color:rgb(25, 54, 34);
+    margin: 10;
+    padding: 10;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+	background:rgb(255, 255, 255);
+	font-size:small;
+}
+
+h1{
+    color:black;
+    margin: 10;
+    padding: 5;
+    background-color:rgb(180, 60, 60);
+    font-size:xx-large;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(47, 117, 175);
+    text-align:right
+}
+
+h3{
+    text-align:right
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+}

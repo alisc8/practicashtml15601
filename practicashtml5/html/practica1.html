@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <title>Encontrar el numero mayor</title>
+        <script src="js/NumMay.js"></script>
+        <link rel = "stylesheet" href="estilopractica1.css"> 
+        
+    </head>
+    <body>
+        <h2 id="DarkModetext">Modo oscuro</h2>
+        <h3>
+          <button onclick="darkMode()">activado</button>
+          <button onclick="lightMode()">desactivado</button>
+        </h4>
+            <script>
+              function darkMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "dark-mode";
+              }
+              function lightMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "light-mode";
+              }
+              
+            </script>
+        <h1>Numero mayor</h1>  
+        <p>Por favor, introduce dos numeros:</p>  
+        <input id="num1"><br>  
+        <input id="num2">  
+        <button type="button" onclick="NumMay()">Comprobar</button>  
+        <p id="Resultado"></p>  
+        
+    </body>
+</html>

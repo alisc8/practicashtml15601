@@ -1,0 +1,51 @@
+body{
+    color:rgb(25, 54, 34);
+    margin: 10;
+    padding: 10;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+	background:rgb(185, 88, 161);
+	font-size:small;
+}
+
+.dark-mode {
+    background-color: black;
+    
+  }
+  .light-mode {
+    background-color:rgb(185, 88, 161);
+    color: black;
+}
+
+header {
+    background:rgb(189, 63, 116);
+
+    color: rgb(8, 8, 8);
+    text-align: center;
+  }
+ 
+.addBtn {
+  width: 10%;
+  padding: 10px;
+  margin-left:0;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+    background: #b2bec3;
+  }
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+

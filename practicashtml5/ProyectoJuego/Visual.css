@@ -1,0 +1,15 @@
+#lienzo {
+    border: 1px solid black;
+  }
+  
+  .jugador {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+  }
+  
+  .plataforma {
+    width: 64px;
+    height: 16px;
+    background-color: gray;
+  }

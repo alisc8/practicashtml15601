@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/estilos/memorama.css">
+    <title>Memorama</title>
+</head>
+<body>
+
+    <h2 id="DarkModetext">Modo oscuro</h2>
+    <h3>
+      <button onclick="darkMode()">Encendido</button>
+      <button onclick="lightMode()">Apagado</button>
+    </h3>
+        <script>
+          function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+          }
+          function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+          }
+          
+        </script>
+
+    <h1>MEMORAMA</h1>
+
+    <main class="board-game">
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/1.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/2.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/4.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/3.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/1.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/4.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/2.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./Imagenes/renaissance.jpg" alt="Back">
+            <div class="searched-image">
+                <img src="./Imagenes/.jpg" alt="Back">
+            </div>
+        </figure>
+        
+    </main>
+
+    
+    <script src="./JS/memorama.js"></script>
+
+</body>
+</html>
